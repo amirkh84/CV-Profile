@@ -1,17 +1,18 @@
+*{
+    box-sizing: border-box;
+}
 body {
+    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-family: sans-serif;
 }
 .menu{
     display: none;
 }
-.holder {
-    height: 800px;
-}
+
 .header{
     position: relative;
 }
@@ -110,7 +111,11 @@ img {
 }
 
 @media only screen and (max-width: 1060px){
+    .show{
+        left: 0 !important ;
+    }
     .menu{
+        z-index: 100;
         display: block;
         position: absolute;
         right: 0px;
@@ -122,12 +127,19 @@ img {
         text-align: left;
     }
     .left-bar{
-        display: none;
+        position: absolute;
+        top: 0;
+        left: -400px;
+        margin: 0;
+        width: 400px;
+        height: 1000px;
+        border-radius: 0;
+        transition: all 400ms ease-in-out;
     }
     .image{
         text-align: center;
     }
-    img{
+    .image img{
         text-align: center;
         width: clamp(400px,70vw,600px); 
     }
