@@ -6,8 +6,14 @@ body {
     justify-content: center;
     font-family: sans-serif;
 }
+.menu{
+    display: none;
+}
 .holder {
     height: 800px;
+}
+.header{
+    position: relative;
 }
 .container {
     display: flex;
@@ -104,6 +110,17 @@ img {
 }
 
 @media only screen and (max-width: 1060px){
+    .menu{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 40px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .title{
+        text-align: left;
+    }
     .left-bar{
         display: none;
     }
