@@ -17,6 +17,7 @@ body {
 .header{
     position: relative;
 }
+
 .container {
     
     display: flex;
@@ -113,6 +114,17 @@ img {
 }
 
 @media only screen and (max-width: 1060px){
+    .header{
+        margin-top: 20px;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+    .header .head{
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+    }
     .show{
         left: 0 !important ;
     }
@@ -123,9 +135,6 @@ img {
     .menu{
         z-index: 100;
         display: block;
-        position: absolute;
-        right: 0px;
-        top: 40px;
         font-size: 25px;
         cursor: pointer;
     }
@@ -147,7 +156,7 @@ img {
     }
     .image img{
         text-align: center;
-        width: clamp(400px,70vw,600px); 
+        width: clamp(300px,70vw,600px); 
     }
     .right-bar{
         width: 100%;
