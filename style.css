@@ -1,0 +1,127 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.holder {
+    height: 800px;
+}
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+.leftbar {
+    width: 360px;
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    padding-left: 30px;
+}
+.texts {
+    font-size: 12px;
+    color: whitesmoke;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.texts2 {
+    font-size: 19px;
+    margin: 0px;
+}
+.texts1 {
+    font-size: 12px;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    margin-top: 90px;
+}
+.icc {
+    font-size: 20px;
+    padding: 5px;
+}
+.flink {
+    color: whitesmoke;
+}
+.texts3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.two {
+    display: flex;
+}
+.img {
+    margin-left: 40px;
+}
+.title {
+    color: tomato;
+    text-align: center;
+    font-size: 80px;
+    margin: 0px;
+}
+.info {
+    text-align: center;
+    font-size: 22px;
+}
+.dtext {
+    display: flex;
+    margin-top: 55px;
+}
+.toptext {
+    color: #727272;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.won {
+    margin-right: 200px;
+}
+.cli {
+    margin-right: 250px;
+    margin-top: 40px;
+}
+.toptext2 {
+    color: tomato;
+    font-weight: 600;
+    font-size: 80px;
+    margin: 0px;
+}
+.pro {
+    margin-top: 40px;
+}
+.btn {
+    width: 600px;
+    background-color: tomato;
+    border: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.moh {
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    transform: translate(0px, 2000px);
+}
+.btn:hover {
+    background-color: rgb(255, 129, 107);
+    cursor: pointer;
+}
+.icc:hover {
+    cursor: pointer;
+}
