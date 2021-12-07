@@ -9,12 +9,17 @@ body {
 .holder {
     height: 800px;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
 img {
     width: 600px;
     height: auto;
     border-radius: 20px;
 }
-.leftbar {
+.left-bar {
     width: 360px;
     background-color: tomato;
     border-radius: 20px;
@@ -38,9 +43,10 @@ img {
     letter-spacing: 5px;
     margin-top: 90px;
 }
-.icc {
+.icons i {
     font-size: 20px;
     padding: 5px;
+    cursor: pointer;
 }
 .link {
     color: whitesmoke;
@@ -51,11 +57,7 @@ img {
     font-size: 19px;
     letter-spacing: 2px;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
+
 .title {
     color: tomato;
     text-align: center;
@@ -94,11 +96,28 @@ img {
     padding: 20px;
     border-radius: 10px;
     margin-top: 80px;
+    margin-bottom:20px;
 }
 .btn:hover {
     background-color: rgb(255, 129, 107);
     cursor: pointer;
 }
-.icc:hover {
-    cursor: pointer;
+
+@media only screen and (max-width: 1060px){
+    .left-bar{
+        display: none;
+    }
+    .image{
+        text-align: center;
+    }
+    img{
+        text-align: center;
+        width: clamp(400px,70vw,600px); 
+    }
+    .right-bar{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
 }
