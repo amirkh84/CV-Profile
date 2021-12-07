@@ -1,12 +1,4 @@
-html {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
 body {
-    width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -50,7 +42,7 @@ img {
     font-size: 20px;
     padding: 5px;
 }
-.flink {
+.link {
     color: whitesmoke;
 }
 .texts3 {
@@ -59,11 +51,10 @@ img {
     font-size: 19px;
     letter-spacing: 2px;
 }
-.two {
+.container {
     display: flex;
-}
-.img {
-    margin-left: 40px;
+    justify-content: center;
+    gap: 40px;
 }
 .title {
     color: tomato;
@@ -77,6 +68,7 @@ img {
 }
 .dtext {
     display: flex;
+    justify-content: space-around;
     margin-top: 55px;
 }
 .toptext {
@@ -84,21 +76,12 @@ img {
     font-weight: 600;
     letter-spacing: 2px;
 }
-.won {
-    margin-right: 200px;
-}
-.cli {
-    margin-right: 250px;
-    margin-top: 40px;
-}
+
 .toptext2 {
     color: tomato;
     font-weight: 600;
     font-size: 80px;
     margin: 0px;
-}
-.pro {
-    margin-top: 40px;
 }
 .btn {
     width: 600px;
@@ -111,12 +94,6 @@ img {
     padding: 20px;
     border-radius: 10px;
     margin-top: 80px;
-}
-.moh {
-    height: 1000px;
-    width: 100%;
-    position: absolute;
-    transform: translate(0px, 2000px);
 }
 .btn:hover {
     background-color: rgb(255, 129, 107);
